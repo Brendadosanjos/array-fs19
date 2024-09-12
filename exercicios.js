@@ -120,6 +120,11 @@ Escreva um loop que multiplique todos os números de um array por 2.*/
 let doubleNumber = numerosarray.map(xdois => xdois * 2)
 console.log(doubleNumber)
 
+for (let it = 0; it  < numerosarray; it++){
+    numerosarray[it] *= 2
+}
+console.log(numerosarray);
+
 /*14.Soma dos Elementos de um Array
 Escreva um loop que some todos os elementos de um array.*/
 let somaNumeros = numerosarray.reduce((anterior, atual, pos)=>{
