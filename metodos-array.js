@@ -176,6 +176,14 @@ const impares = num3.some((num) => num % 2 === 1)
 console.log(impares);
 
 
-//REVERSE: 
+//REVERSE: inverte as posições do array
 const reverseData = num3.reverse();
 console.log(reverseData);
+
+
+//PUSH: adiciona elementos no final do array
+const adic = num4.push(12, 15)
+console.log(adic);//retorna o tamanho que ficou o array
+console.log(num4);//retorna o array modificado
+
+
