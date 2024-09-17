@@ -165,6 +165,14 @@ const sallariesSum = data.reduce(
   );
 console.log(sallariesSum);
 
+//ou 
+
+let redu = num4.reduce((total, myreduce) => {
+    return total + myreduce;
+}, 0);
+
+console.log(redu);
+
 
 //EVERY: verifica se todos os elementos do array atendem a uma condição específica
 const pares = num3.every((num) => num % 2 === 0)
@@ -186,4 +194,14 @@ const adic = num4.push(12, 15)
 console.log(adic);//retorna o tamanho que ficou o array
 console.log(num4);//retorna o array modificado
 
+
+//SHIFT: remove o primeiro elemento do array
+const remo = num4.shift()
+console.log(num4);
+
+
+//SLICE: retorna uma cópia do array, mas não retorna o array original
+let frutas2 = ['limão','caja','caju','mamao']
+const sli = frutas2.slice(1,3)//até o 3. 
+console.log(sli);
 
